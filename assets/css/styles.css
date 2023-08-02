@@ -539,7 +539,19 @@ main {
 
     }
 
+    .channels__content:hover {
+        opacity: 1;
+        border: none;
+        transform: none;
+    }
 
+    .channels__content:hover img {
+        opacity: 1;
+    }
+
+    .channels__content:nth-child(n):hover {
+        background: none;
+    }
 }
 
 @media screen and (max-width: 800px) {
