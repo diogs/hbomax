@@ -538,11 +538,42 @@ main {
         margin-bottom: 20px;
 
     }
+
+
 }
 
 @media screen and (max-width: 800px) {
     .cards__channel {
         grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    .plan__card {
+        transition: none;
+
+    }
+
+    .card__mobile:has(.multi:hover) .mobile {
+        transform: none;
+    }
+
+    .card__mobile:has(.mobile:hover) .multi {
+        transform: none;
+    }
+
+    .button:hover {
+        transform: none;
+
+    }
+
+    .button {
+        transition: none;
+        background: transparent;
+        border: 2px solid var(--secondary-color);
+    }
+
+    .btn__sub:hover {
+        outline: none;
 
     }
 }
