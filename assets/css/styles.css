@@ -609,4 +609,14 @@ main {
     .btn__login {
         justify-content: center;
     }
+
+    .plan__card {
+        padding: 15px;
+
+    }
+
+    .plan__card ul li {
+        margin-left: 15px;
+        padding: 5px;
+    }
 }
