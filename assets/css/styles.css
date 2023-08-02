@@ -294,7 +294,7 @@ main {
 
 .plan__card {
     background: var(--card-bg-color);
-    padding: 40px 60px;
+    padding: 40px 40px;
     border-radius: 8px;
     display: flex;
     min-height: 600px;
